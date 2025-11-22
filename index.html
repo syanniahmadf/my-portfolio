@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+      <div class="container">
+         <img src="img/logo.png" alt="Bootstrap" width="50" height="44">
+        <a class="navbar-brand" href="#">Syans<span>Fauz</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!--Jumbotron-->
+    <section class="jumbotron text-center text-white">
+      <img src="img/profil.jpg" alt="Foto Profil" width="200" class="rounded-circle shadow-lg" />
+      <h1 class="display-4">Syanni Ahmad Fauzan</h1>
+      <p id="typing-text"></p><br>
+      <a href="https://github.com/syanniahmadf" class="btn btn-dark">GitHub</a>
+      <a href="https://linkedin.com/in/syanniahmadf" class="btn btn-outline-primary">LinkedIn</a>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,160L30,165.3C60,171,120,181,180,160C240,139,300,85,360,74.7C420,64,480,96,540,128C600,160,660,192,720,213.3C780,235,840,245,900,245.3C960,245,1020,235,1080,202.7C1140,171,1200,117,1260,90.7C1320,64,1380,64,1410,64L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Akhir Jumbotron-->
+
+    <!--About-->
+    <section id="about" data-aos="fade-up">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 class="text-dark">About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <p class="lead text-center">
+              Saya adalah mahasiswa STMIK Mardira Indonesia yang aktif dalam proyek akademik dan pengembangan web. Memiliki minat besar pada <strong>web development</strong>, <strong>UI/UX design</strong>, serta
+              <strong>penulisan akademik</strong>. Saya terbiasa bekerja dengan HTML, CSS, JavaScript, PHP dan GitHub untuk membangun portfolio digital yang profesional.
+            </p>
+            <p class="text-center">
+              Selain itu, saya senang mengeksplorasi fitur interaktif modern seperti animasi scroll, dark mode, dan efek hover untuk menciptakan pengalaman pengguna yang menarik. Tujuan saya adalah menggabungkan keterampilan teknis dan
+              kreativitas dalam setiap proyek yang saya kerjakan.
+            </p>
+          </div>
+        </div>
+
+        <section data-aos="fade-up" class="container mt-5 mb-5 md-4">
+         <h2 class="mb-4 text-center">My Skills</h2>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card shadow-sm">
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  <img src="img/htmlcss.jpg" alt="HTML CSS Logo" class="skill-logo" />
+                  HTML & CSS
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card shadow-sm">
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  <img src="img/js.png" alt="JavaScript Logo" class="skill-logo" />
+                  JavaScript
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card shadow-sm">
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  <img src="img/php.png" alt="PHP Logo" class="skill-logo" />
+                  PHP
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card shadow-sm">
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  <img src="img/github.png" alt="GitHub Logo" class="skill-logo" />
+                  Git & GitHub
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div data-aos="fade-up" class="container mt-5 mb-5 md-4">
+        <p>HTML & CSS</p>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 90%">90%</div>
+        </div>
+        <p>JavaScript</p>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-warning" style="width: 70%">70%</div>
+        </div>
+        <p>PHP</p>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-muted" style="width: 60%">60%</div>
+        </div>
+        <p>Git & GitHub</p>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-dark" style="width: 80%">80%</div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#393e46"
+          fill-opacity="1"
+          d="M0,32L40,53.3C80,75,160,117,240,122.7C320,128,400,96,480,74.7C560,53,640,43,720,80C800,117,880,203,960,229.3C1040,256,1120,224,1200,192C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Akhir About-->
+
+    <!--Projects-->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center text-white mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/web1.png" class="card-img-top" alt="Projects 1" />
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/web2.png" class="card-img-top" alt="Projects 2" />
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/web3.png" class="card-img-top" alt="Projects 3" />
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/web4.png" class="card-img-top" alt="Projects 4" />
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/web5.png" class="card-img-top" alt="Projects 5" />
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="row">
+      <div class="col text-center mt-3">
+        <a href="#" class="btn btn-primary btn-lg">Selengkapnya</a>
+      </div>
+    </div>
+  </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,96L40,112C80,128,160,160,240,154.7C320,149,400,107,480,112C560,117,640,171,720,197.3C800,224,880,224,960,197.3C1040,171,1120,117,1200,128C1280,139,1360,213,1400,250.7L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Akhir Projects-->
+
+    <!--Contact-->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#212529"
+          fill-opacity="1"
+          d="M0,32L48,74.7C96,117,192,203,288,229.3C384,256,480,224,576,186.7C672,149,768,107,864,117.3C960,128,1056,192,1152,202.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Akhir Contact-->
+
+    <!--Icon Informasi-->
+    <div class="text-center bg-dark pb-5">
+      <a href="https://github.com/username" target="_blank" class="btn btn-dark mx-2">
+        <i class="bi bi-github fa-2x text-white"></i>
+      </a>
+      <a href="https://instagram.com/username" target="_blank" class="btn btn-dark mx-2">
+        <i class="bi bi-instagram fa-2x text-white"></i>
+      </a>
+      <a href="https://linkedin.com/in/username" target="_blank" class="btn btn-dark mx-2">
+        <i class="bi bi-linkedin fa-2x text-white"></i>
+      </a>
+      <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-dark mx-2">
+        <i class="bi bi-whatsapp fa-2x text-white"></i>
+      </a>
+    </div>
+    <!--Akhir Icon Informasi-->
+
+
+    <!--Footer-->
+    <footer class="bg-dark text-white text-center pb-5">
+      <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://github.com/syanniahmadf" class="text-white fw-bold">Syanni Ahmad Fauzan</a></p>
+    </footer>
+    <!--Akhir Footer-->
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #393e46;
+}
+#projects {
+  background-color: #393e46;
+}
+section {
+  padding-top: 5rem;
+}
+.skill-logo {
+  width: 24px; /* ukuran kecil */
+  height: 24px;
+  margin-right: 8px; /* jarak dengan teks */
+  vertical-align: middle; /* sejajar dengan teks */
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+span {
+  color: #00adb5;
+}
+
+#typing-text {
+  height: 1.5em; /* sesuai tinggi satu baris teks */
+  overflow: hidden; /* cegah konten meluber */
+  display: inline-block;
+}
